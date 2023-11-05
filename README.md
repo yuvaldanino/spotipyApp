@@ -1,4 +1,4 @@
-# spotipyApp
+## spotipyApp
 
 Spotify Playlist Curator
 
