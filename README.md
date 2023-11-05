@@ -6,14 +6,18 @@ This web application harnesses the power of the Spotify API to create a personal
 
 Key Features:
 
-OAuth Authentication: Implements OAuth 2.0 to securely connect with Spotify accounts, ensuring that user credentials are protected while allowing the application to interact with Spotify data on their behalf.
+- # OAuth Authentication: 
+Implements OAuth 2.0 to securely connect with Spotify accounts, ensuring that user credentials are protected while allowing the application to interact with Spotify data on their behalf.
 
-Personalized Playlists: Provides users with the ability to generate playlists in a variety of ways:
+- # Personalized Playlists: 
+Provides users with the ability to generate playlists in a variety of ways:
 
-Based on their top 25 most-played songs.
-Reflecting their top 5 tracks over the last month.
-Curated from their top 5 favorite artists.
-Song Recommendation Algorithm: At the heart of the application is a sophisticated song recommendation system, crafted in Python. It utilizes:
+  - Based on their top 25 most-played songs.
+  - Reflecting their top 5 tracks over the last month.
+  - Curated from their top 5 favorite artists.
+
+- # Song Recommendation Algorithm:
+-   At the heart of the application is a sophisticated song recommendation system, crafted in Python. It utilizes:
 
 Pandas for efficient data management and analysis, handling complex data operations to match user preferences.
 Matplotlib and Seaborn for generating interactive plots. These plots not only provide a visual representation of the songs' data points but also highlight the selections that best match the user's input.
